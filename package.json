@@ -1,0 +1,14 @@
+{
+  "name": "shopez",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ShopEZ E-Commerce Full-Stack Application",
+  "scripts": {
+    "start": "npm run start:client",
+    "start:client": "npm --prefix client run dev",
+    "start:server": "npm --prefix server start",
+    "dev:client": "npm --prefix client run dev",
+    "dev:server": "npm --prefix server start",
+    "install:all": "npm --prefix server install && npm --prefix client install"
+  }
+}
